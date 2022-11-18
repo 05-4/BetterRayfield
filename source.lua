@@ -2281,3 +2281,5 @@ function notify(...)
 end]]
 
 ChangeTheme("Default")
+
+return Library
