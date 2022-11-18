@@ -2270,16 +2270,4 @@ function Library:LoadConfiguration()
 	end
 end
 
---[[
-function notify(...)
-	local name, content, other = unpack({..., 0})
-
-	Library:Notify({
-		Name = name,
-		Content = content,
-	})
-end]]
-
-ChangeTheme("Default")
-
 return Library
