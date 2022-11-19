@@ -141,6 +141,8 @@ local CoreGui = game:GetService("CoreGui")
 
 local BetterRayfield = game:GetObjects("rbxassetid://10804731440")[1]
 
+Library.Instance = BetterRayfield
+
 if gethui then
     BetterRayfield.Parent = CoreGui -- gethui()
 elseif syn.protect_gui then
